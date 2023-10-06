@@ -2,14 +2,19 @@ body{
   background-color:rgba(255, 165, 38, 0.498);
 }
 
-h1{
+.App h1{
   text-align: center;
   color:rgb(6, 109, 71);
   font-weight: bold;
 }
 
-a{
+.App a{
   color:rgb(138, 140, 25);
+}
+
+.App{
+  max-width: 960px;
+  margin: 0 auto;
 }
 
 .App-header{
@@ -19,4 +24,8 @@ a{
 .App-footer{
   text-align: center;
   margin: 30px 0;
+  font-size: 18px;
+  color:rgb(6, 109, 71, 0.8);
+  font-weight: bold;
+
 }
