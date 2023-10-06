@@ -1,3 +1,17 @@
+body{
+  background-color:rgba(255, 165, 38, 0.498);
+}
+
+h1{
+  text-align: center;
+  color:rgb(6, 109, 71);
+  font-weight: bold;
+}
+
+a{
+  color:rgb(138, 140, 25);
+}
+
 .App-header{
   margin: 30px;
 }

@@ -10,7 +10,7 @@ function App() {
           <h1>Dictionary</h1>
         </header>
         <main>
-          <Dictionary />
+          <Dictionary defaultKeyword="Earth" />
         </main>
         <footer className="App-footer">
           <small>Coded by Yalda Keshavarzi</small>
