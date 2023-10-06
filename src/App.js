@@ -1,4 +1,3 @@
-import logo from './logo.png';
 import './App.css';
 import Dictionary from "./Dictionary";
 
@@ -13,7 +12,13 @@ function App() {
           <Dictionary defaultKeyword="Earth" />
         </main>
         <footer className="App-footer">
-          <small>Coded by Yalda Keshavarzi</small>
+          <small className="name">
+            Coded by Yalda Keshavarzi &{" "}
+            <a href="https://github.com/ycode2023/dictionary-project" target='_blank'>
+              {" "}
+              open-sourced
+            </a>
+          </small>
         </footer>
       </div>
     </div>
